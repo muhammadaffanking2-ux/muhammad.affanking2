@@ -1,0 +1,287 @@
+.top-bar {
+    position: relative;
+    border: 1px solid white;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+
+}
+
+.pokemon-shop {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 20px;
+    background-color: white;
+    border: none;
+
+}
+
+.pokemon-central {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 220px;
+    background-color: white;
+    border: none;
+}
+
+.search {
+    margin-top: 10px;
+    position: absolute;
+    right: 10%;
+    background-color: rgb(238, 235, 235);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.top-bar img {
+    position: absolute;
+    top: 9px;
+}
+
+.top-bar img.second {
+    position: absolute;
+    left: 200px;
+}
+
+hr{
+    color: grey;
+    opacity: 0.4;
+    
+}
+
+.nav-bar {
+    border: 1px solid white;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    /* position: relative; */
+    word-spacing: 20px;
+}
+
+.nav-bar .logo {
+    width: 120px;
+    position: absolute;
+    margin: 10px;
+
+}
+
+.nav-bar a.pokedex>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.nav-bar a.games>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nav-bar a.cards>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nav-bar a.merchandise>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nav-bar a.event>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nav-bar a.anima>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nav-bar a.news>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.nav-bar a.f-s>button {
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.container-1 {
+    margin-left: 100px;
+    position: relative;
+    border: 1px solid white;
+    width: 90%;
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+.container-1 .image-one {
+    margin-top: 10px;
+    margin-right: 0%;
+    margin-left: 270px;
+    border: 1px solid orange;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    background-color: rgb(249, 192, 87);
+}
+
+.image-one img.img-one {
+    width: 100%;
+}
+
+.image-one p.para-one {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.image-one p.para-two {
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+}
+
+.container-1 .image-two {
+    position: absolute;
+    top: 10px;
+    right: 310px;
+    margin-right: 0%;
+    border: 1px solid rgb(93, 162, 247);
+    border: none;
+    background-color: rgb(93, 162, 247);
+    width: 15%;
+    height: 190px;
+}
+
+.container-1 .image-two img.img-two {
+    width: 100%;
+}
+
+.container-1 p.para1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.container-1 .image-three {
+    position: absolute;
+    top: 210px;
+    right: 250px;
+    border: 1px solid purple;
+    border: none;
+    background-color: rgb(116, 128, 239);
+    width: 20%;
+    height: 220px;
+}
+
+img.img-three {
+    width: 100%;
+}
+
+.image-three p {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    text-align: center;
+}
+
+.container-1 .image-four {
+    border: 1px solid brown;
+    border: none;
+    background-color: rgb(109, 95, 95);
+    width: 20%;
+    height: 220px;
+    position: absolute;
+    left: 300px;
+}
+
+img.img-four {
+    width: 100%;
+}
+
+.container-1 .image-four p.para-four {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-1 .image-five {
+    position: absolute;
+    left: 650px;
+    border: 1px solid black;
+    border: none;
+    background-color: rgb(123, 71, 173);
+    height: 300px;
+    width: 400px;
+}
+
+img.img-five {
+    width: 100%;
+}
+
+.container-1 .image-five p.para-five {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.poke-selector {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+}
+
+button.fp {
+    margin-top: 10px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.8;
+    color: gray;
+    font-size: larger;
+    padding: 10px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.poke-selector img.poke_selector{
+    width: 100%;
+    height: 100%;
+}
+
+/* .container-2 img.background {
+    width: 90%;
+    height: 80%;
+} */
+.container-2 .container{
+            border: 1px solid black;
+            color: aqua;
+            width: 70%;
+            height: 60%;
+}
