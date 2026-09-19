@@ -1,3 +1,7 @@
+body {
+    background-image: url(./assets/images/background-1.png);
+}
+
 .top-bar {
     position: relative;
     border: 1px solid white;
@@ -14,7 +18,11 @@
     margin-left: 20px;
     background-color: white;
     border: none;
+}
 
+button.pokemon-shop:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 .pokemon-central {
@@ -23,6 +31,11 @@
     margin-left: 220px;
     background-color: white;
     border: none;
+}
+
+.pokemon-central:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 .search {
@@ -45,10 +58,10 @@
     left: 200px;
 }
 
-hr{
+hr {
     color: grey;
     opacity: 0.4;
-    
+
 }
 
 .nav-bar {
@@ -56,7 +69,6 @@ hr{
     width: 100%;
     height: 80px;
     background-color: white;
-    /* position: relative; */
     word-spacing: 20px;
 }
 
@@ -74,12 +86,22 @@ hr{
     margin-top: 30px;
     margin-left: 180px;
 }
+.nav-bar a.pokedex>button:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 15px;
+}
 
 .nav-bar a.games>button {
     border: none;
     background-color: white;
     font-weight: bold;
     margin-left: 5px;
+}
+.nav-bar a.games>button:hover {
+    color: purple;
+    text-decoration: underline;
+    font-size: 15px;
 }
 
 .nav-bar a.cards>button {
@@ -88,12 +110,22 @@ hr{
     font-weight: bold;
     margin-left: 5px;
 }
+.nav-bar a.cards>button:hover {
+    color: orange;
+    text-decoration: underline;
+    font-size: 15px;
+}
 
 .nav-bar a.merchandise>button {
     border: none;
     background-color: white;
     font-weight: bold;
     margin-left: 5px;
+}
+.nav-bar a.merchandise>button:hover {
+    color: greenyellow;
+    text-decoration: underline;
+    font-size: 15px;
 }
 
 .nav-bar a.event>button {
@@ -102,12 +134,22 @@ hr{
     font-weight: bold;
     margin-left: 5px;
 }
+.nav-bar a.event>button:hover {
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 15px;
+}
 
 .nav-bar a.anima>button {
     border: none;
     background-color: white;
     font-weight: bold;
     margin-left: 5px;
+}
+.nav-bar a.anima>button:hover {
+    color: deeppink;
+    text-decoration: underline;
+    font-size: 15px;
 }
 
 .nav-bar a.news>button {
@@ -116,6 +158,11 @@ hr{
     font-weight: bold;
     margin-left: 5px;
 }
+.nav-bar a.news>button:hover {
+    color: grey;
+    text-decoration: underline;
+    font-size: 15px;
+}
 
 .nav-bar a.f-s>button {
     border: none;
@@ -123,24 +170,35 @@ hr{
     font-weight: bold;
     margin-left: 5px;
 }
+.nav-bar a.f-s>button:hover {
+    color:palevioletred;
+    text-decoration: underline;
+    font-size: 15px;
+}
 
 .container-1 {
-    margin-left: 100px;
+    background-image: url(./assets/images/background-1.png);
     position: relative;
-    border: 1px solid white;
-    width: 90%;
-    height: 800px;
-    background-color: antiquewhite;
+    border: 1px solid black;
+    border: none;
+    width: 100%;
+    height: 80%;
+}
+
+.container-1 .background1 {
+    left: 250px;
+    position: relative;
+    width: 70%;
+
 }
 
 .container-1 .image-one {
-    margin-top: 10px;
-    margin-right: 0%;
-    margin-left: 270px;
-    border: 1px solid orange;
+    position: absolute;
+    bottom: 600px;
+    left: 400px;
     border: none;
     border-radius: 5px;
-    width: 40%;
+    width: 30%;
     background-color: rgb(249, 192, 87);
 }
 
@@ -163,14 +221,14 @@ hr{
 
 .container-1 .image-two {
     position: absolute;
-    top: 10px;
-    right: 310px;
+    top: 55px;
+    right: 490px;
     margin-right: 0%;
     border: 1px solid rgb(93, 162, 247);
     border: none;
     background-color: rgb(93, 162, 247);
     width: 15%;
-    height: 190px;
+    height: 230px;
 }
 
 .container-1 .image-two img.img-two {
@@ -179,20 +237,20 @@ hr{
 
 .container-1 p.para1 {
     color: white;
-    text-align: center;
+    padding: 10px;
     text-transform: capitalize;
     font-size: larger;
 }
 
 .container-1 .image-three {
     position: absolute;
-    top: 210px;
-    right: 250px;
+    top: 290px;
+    right: 410px;
     border: 1px solid purple;
     border: none;
     background-color: rgb(116, 128, 239);
     width: 20%;
-    height: 220px;
+    height: 240px;
 }
 
 img.img-three {
@@ -211,9 +269,10 @@ img.img-three {
     border: none;
     background-color: rgb(109, 95, 95);
     width: 20%;
-    height: 220px;
+    height: 240px;
     position: absolute;
-    left: 300px;
+    bottom: 330px;
+    left: 390px;
 }
 
 img.img-four {
@@ -230,12 +289,13 @@ img.img-four {
 
 .container-1 .image-five {
     position: absolute;
-    left: 650px;
+    left: 740px;
+    bottom: 180px;
     border: 1px solid black;
     border: none;
     background-color: rgb(123, 71, 173);
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 480px;
 }
 
 img.img-five {
@@ -270,18 +330,409 @@ button.fp {
     text-transform: capitalize;
 }
 
-.poke-selector img.poke_selector{
+button.fp:hover {
+    background-color: white;
+    color: black;
+
+}
+.poke-selector img.poke_selector {
     width: 100%;
     height: 100%;
 }
 
-/* .container-2 img.background {
+.container-2 {
+    background-image: url(./assets/images/background-1.png);
+    position: relative;
+    border: 1px solid black;
+    border: none;
+    left: 100px;
     width: 90%;
-    height: 80%;
-} */
-.container-2 .container{
-            border: 1px solid black;
-            color: aqua;
-            width: 70%;
-            height: 60%;
+    height: 50%;
+}
+
+.container-2 img.background {
+    left: 100px;
+    position: relative;
+    width: 90%;
+    height: 10%;
+}
+
+.container-2 .image-seven {
+    position: absolute;
+    border: 1px solid blue;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(8, 8, 145);
+    height: 350px;
+    top: 50px;
+    right: 950px;
+    width: 350px;
+}
+
+.container-2 button.m-p {
+    position: absolute;
+    z-index: 2000;
+    top: 1%;
+    right: 15%;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+}
+.container-2 button.m-p:hover {
+    background-color: gray;
+    color: black;
+}
+
+.container-2 img.img-seven {
+    width: 100%;
+}
+
+.container-2 p.para-seven1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.container-2 p.para-seven2 {
+    color: aqua;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
+
+.container-2 .image-eig {
+    position: absolute;
+    border: 1px solid blue;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(123, 71, 173);
+    height: 460px;
+    top: 50px;
+    right: 630px;
+    width: 300px;
+}
+
+.container-2 img.img-eig {
+    width: 100%;
+    height: 60%;
+}
+
+.container-2 p.para-eig1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.container-2 p.para-eig2 {
+    color: black;
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
+
+.container-2 .image-nine {
+    position: absolute;
+    border: 1px solid blue;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    height: 350px;
+    top: 100px;
+    right: 310px;
+    width: 300px;
+}
+
+.container-2 img.img-nine {
+    width: 100%;
+}
+
+.container-2 p.para-nine1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.container-2 p.para-nine2 {
+    color: black;
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+
+}
+
+.container-2 .image-ten {
+    position: absolute;
+    border-radius: 10px;
+    background-color: gray;
+    height: 390px;
+    bottom: 400px;
+    left: 200px;
+    width: 350px;
+}
+
+.container-2 img.img-ten {
+    width: 100%;
+}
+
+.container-2 p.para-ten1 {
+    color: black;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
+
+.container-2 p.para-ten2 {
+    color: rgb(220, 209, 209);
+    opacity: 0.8;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
+
+.container-2 .image-ele {
+    position: absolute;
+    border: none;
+    background-color: pink;
+    border-radius: 10px;
+    width: 310px;
+    height: 390px;
+    right: 40%;
+    bottom: 180px;
+}
+
+.container-2 img.img-ele {
+    width: 100%;
+}
+
+.container-2 p.para-ele1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.container-2 p.para-ele2 {
+    color: palevioletred;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
+
+.container-2 .image-twe {
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    right: 18%;
+    width: 300px;
+    height: 350px;
+    bottom: 400px;
+}
+
+.container-2 img.img-twe {
+    width: 100%;
+}
+
+.container-2 p.para-twe1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.container-2 p.para-twe2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
+
+.container-2 p.main-para {
+    position: absolute;
+    border: 1px solid black;
+}
+
+.container-2 p.main_para {
+    z-index: 1000px;
+    position: absolute;
+    color: gray;
+    font-weight: bolder;
+    right: 650px;
+    bottom: 580px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+body .container-3 {
+    position: relative;
+    border: 1px solid black;
+    width: 1700px;
+    height: 600px;
+    background-color: white;
+}
+
+
+.container-3 .poke-email {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 750px;
+    height: 185px;
+    background-color: lightblue;
+}
+
+.container-3 .img-email {
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+}
+
+.container-3 p.emailpara1 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.container-3 p.emailpara2 {
+    position: absolute;
+    top: 80px;
+    left: 255px;
+    font-size: 18px;
+}
+
+.container-3 img.community-img {
+    position: absolute;
+    left: 880px;
+    top: 40px;
+}
+
+.container-3 img.image13 {
+    position: absolute;
+    left: 530px;
+    height: 200px;
+    width: 500px;
+    top: 300px;
+}
+
+.container-3 .info a.ac {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.container-3 .info a.pg {
+    position: absolute;
+    top: 335px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.container-3 .info a.cs {
+    position: absolute;
+    top: 375px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.container-3 .info a.c {
+    position: absolute;
+    top: 410px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.container-3 .info a.ps {
+    position: absolute;
+    top: 445px;
+    left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.container-3 .last-div {
+    position: absolute;
+    top: 600px;
+    bottom: 10px;
+    background-color: plum;
+    border: 1px solid purple;
+    width: 1700px;
+    height: 70px;
+}
+
+.container-3 button.top-button>a {
+    color: black;
+    border: none;
+    text-decoration: none;
+    background-color: plum;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 750px;
+}
+
+.container-3 button.top-button>a:hover {
+    font-size: 15px;
+
+}
+
+.container-3 img.footer-image {
+    position: absolute;
+    bottom: 5px;
+    left: 480px;
+    width: 170px;
+}
+.container-3 img.footer-image:hover {
+        bottom: 20px;
+}
+
+.container-3 img.footer-image2 {
+    position: absolute;
+    bottom: 5px;
+    left: 930px;
+    width: 40px;
+}
+.container-3 img.footer-image2:hover {
+     bottom: 20px;
 }
